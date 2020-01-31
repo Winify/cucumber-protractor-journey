@@ -1,0 +1,25 @@
+{
+  "name": "cucumber-journey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "webdriver-manager update",
+    "test": "protractor protractor.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.8",
+    "@types/chai-as-promised": "^7.1.2",
+    "@types/cucumber": "^6.0.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^6.0.5",
+    "protractor": "^5.4.3",
+    "protractor-cucumber-framework": "^6.2.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
